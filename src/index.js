@@ -2,7 +2,7 @@ import { createApp } from "./app.js";
 import { userRouter } from "./routes/user.route.js";
 import { transactionRouter } from "./routes/transaction.route.js";
 
-const PORT = process.env.PORT || 6000;
+const PORT = process.env.PORT || 4000;
 
 const { app, port } = createApp({ port: PORT });
 
