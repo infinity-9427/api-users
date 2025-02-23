@@ -74,7 +74,7 @@ Se debe enviar la solicitud en formato **multipart/form-data**.
 
 **Ejemplo en Postman:**
 
-1. Selecciona el método **POST** y la URL `http://localhost:3000/users`.
+1. Selecciona el método **POST** y la URL `http://localhost:4000/users`.
 2. Ve a la pestaña **Body** y selecciona **form-data**.
 3. Agrega los siguientes campos:
    
@@ -112,7 +112,7 @@ Si el usuario tiene un avatar, este se eliminará de **Cloudinary** antes de eli
 #### Obtener transacciones de un usuario - `GET /transactions/:user_id`
 
 ## Notas
-- El servidor se ejecutará en `http://localhost:3000/` por defecto.
+- El servidor se ejecutará en `http://localhost:4000/` por defecto.
 - Prisma manejará la base de datos y sus migraciones automáticamente.
 - Asegúrate de que la base de datos **PostgreSQL** esté funcionando antes de ejecutar el backend.
 
